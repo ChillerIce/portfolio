@@ -22,6 +22,7 @@ const App = () => {
                 </ul>
             </nav>
             <Routes>
+                <Route path="/" element={<Navigate to="/home" replace />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="*" element={<Error />} />
