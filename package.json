@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://chillerice.github.io/portfolio/",
+  "homepage": "https://chillerice.github.io/portfolio/home",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,7 +15,8 @@
   "dependencies": {
     "gh-pages": "^6.3.0",
     "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5"
   },
   "devDependencies": {
     "@types/react": "^19.3.0",
