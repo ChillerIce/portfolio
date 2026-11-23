@@ -1,4 +1,8 @@
 
 export default function Error() {
-    return <div>Error Page</div>;
+    return (
+    <>
+    <div>Error Page</div>
+    </>
+);
 }

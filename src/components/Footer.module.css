@@ -1,0 +1,42 @@
+/* ./components/Footer.module.css */
+.footer {
+  background: #1d2340;
+  color: #eef1f8;
+  font-family: "Bricolage Grotesque", system-ui, sans-serif;
+  padding: 3.5rem clamp(1.25rem, 5vw, 4rem) 1.5rem;
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+.heading { font-size: 2rem; margin: 0 0 0.5rem; }
+.text { margin: 0 0 1rem; color: #b9c0dc; max-width: 26rem; }
+
+.email {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #eef1f8;
+  text-decoration-color: #ff5d8f;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+}
+
+.socials {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-size: 1.1rem;
+}
+.socials a { color: #eef1f8; text-decoration: none; }
+.socials a:hover { text-decoration: underline; text-decoration-color: #ff5d8f; text-decoration-thickness: 3px; }
+
+.footer a:focus-visible { outline: 3px solid #ff5d8f; outline-offset: 3px; }
+
+.copy { margin: 3rem 0 0; font-size: 0.85rem; color: #8b93b5; }
