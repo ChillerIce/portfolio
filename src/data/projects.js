@@ -4,6 +4,7 @@
 
 import CGPGImage from "../assets/CGPGAssignment.png"
 import GADVImage from "../assets/GADVAssignment.png"
+import TMODImage from "../assets/TMODAssignment.jpg"
 
 const projects = [
   {
@@ -33,6 +34,16 @@ const projects = [
     description: "A simple platformer game with a physic-based telekinetic mechanic.",
     tools: ["Unity", "C#"],
     image: GADVImage,
+    color: "#FFD479",
+    link: "https://example.com",
+  },
+  {
+    title: "3D Sci-Fi Level Design",
+    type: "School Project",
+    year: 2026,
+    description: "An abandoned laboratory filled with incubation tubes.",
+    tools: ["Maya"],
+    image: TMODImage,
     color: "#FFD479",
     link: "https://example.com",
   },

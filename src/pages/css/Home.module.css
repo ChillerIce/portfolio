@@ -24,7 +24,7 @@
 }
 
 /* Hero */
-.hero { padding: clamp(3rem, 10vw, 7rem) 0 3rem; max-width: 60rem; }
+.hero { padding: clamp(3rem, 4vw, 7rem) 0 3rem; max-width: 60rem; }
 .name h1{
   font-size: clamp(3rem, 12vw, 8rem);
   font-weight: 800;
@@ -106,6 +106,17 @@
   font-weight: 600;
   color: inherit;
   cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+}
+
+.controls { align-items: center; flex-wrap: wrap; justify-content: flex-end; }
+
+.moreLink {
+  margin-right: 0.75rem;
+  font-weight: 600;
   text-decoration: underline;
   text-decoration-color: var(--accent);
   text-decoration-thickness: 3px;

@@ -2,6 +2,7 @@
 import { useRef } from "react";
 import styles from "./css/Home.module.css";
 import projects from "../data/projects";
+import { Link } from "react-router-dom"
 
 export default function Home() {
   const trackRef = useRef(null);
@@ -36,12 +37,9 @@ export default function Home() {
         <div className={styles.workHeader}>
           <h2 id="work-heading">Selected work</h2>
           <div className={styles.controls}>
-            <button onClick={() => scrollByCard(-1)} aria-label="Previous project">
-              ‹
-            </button>
-            <button onClick={() => scrollByCard(1)} aria-label="Next project">
-              ›
-            </button>
+            
+            <button onClick={() => scrollByCard(-1)} aria-label="Previous project">‹</button>
+            <button onClick={() => scrollByCard(1)} aria-label="Next project">›</button>
           </div>
         </div>
 
@@ -67,12 +65,14 @@ export default function Home() {
             </li>
           ))}
         </ul>
+
+        <Link to="/work" className={styles.moreLink}>View more work</Link>
       </section>
 
       <section className={styles.about} aria-labelledby="about-heading">
         <h2 id="about-heading">About</h2>
         <p>
-          I study Immersive Media and Game Development in Temasek Polytechnic. <br></br>
+          I am a 2nd year student that is studying Immersive Media and Game Development in Temasek Polytechnic. <br></br>
           I enjoy creating and designing games with all its mechanics and art.
         </p>
       </section>
